@@ -102,7 +102,7 @@ StandardError: Directly inheriting from ActiveRecord::Migration is not supported
   class CreateArtists < ActiveRecord::Migration[4.2]
 ```
 
-...simply add `[4.2]` or whatever number is displayed to the end of
+...simply add `[]` or whatever number is displayed to the end of
 `ActiveRecord::Migration` in your migration file, exactly as the error message
 instructs.
 
